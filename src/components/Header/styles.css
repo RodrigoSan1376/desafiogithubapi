@@ -1,0 +1,9 @@
+header {
+    height: 62px;
+    background-color: var(--dga-color-bg-secondary);
+    color: var(--dga-color-font-primary);
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}

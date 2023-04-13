@@ -1,10 +1,11 @@
+import Header from "./components/Header";
 
 
 export default function App() {
   
 
   return (
-      <h1>Desafio Github API</h1>
+      <Header />
   )
 }
 
