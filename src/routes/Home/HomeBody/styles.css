@@ -1,0 +1,10 @@
+.dga-home-title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.dga-home-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dga-color-font-secondary);
+}

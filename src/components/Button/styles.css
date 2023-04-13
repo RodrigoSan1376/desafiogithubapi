@@ -1,0 +1,9 @@
+.dga-button {
+    width: 101px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--dga-color-bg-secondary);
+    color: var(--dga-color-font-primary);
+    font-size: 16px;
+}
