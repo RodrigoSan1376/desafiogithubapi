@@ -25,6 +25,11 @@
   font-family: "Roboto";
 }
 
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
 .dga-paddingl40 {
   padding-left: 40px;
 }
@@ -35,4 +40,14 @@
 
 .dga-mb30 {
     margin-bottom: 30px;
+}
+
+.dga-dflex {
+  display: flex;
+}
+
+.dga-container {
+  width: 100%;
+  max-width: 1251px;
+  margin: 0 auto;
 }

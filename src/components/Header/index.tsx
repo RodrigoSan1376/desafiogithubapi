@@ -1,11 +1,14 @@
-import './styles.css';
+import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-    return(
-        <header>
-            <div className='dga-paddingl40'>
-                Github API
-            </div>
-        </header>
-    );
+  return (
+    <header>
+      <div>
+        <Link to={"/"}>
+            <div className="dga-paddingl40">Github API</div>
+        </Link>        
+      </div>
+    </header>
+  );
 }

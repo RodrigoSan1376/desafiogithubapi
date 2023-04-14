@@ -6,7 +6,7 @@ type Props = {
 
 export default function Button({ text }: Props) {
   return (
-    <div className="dga-paddingl40">
+    <div>
       <button className="dga-button" type="submit">{text}</button>
     </div>
   );

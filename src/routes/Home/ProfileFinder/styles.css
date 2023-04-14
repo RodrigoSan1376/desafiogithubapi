@@ -1,0 +1,28 @@
+.dga-profile-finder-section {
+    margin-top: 55px;
+    height: 270px;
+    background-color: var(--dga-color-bg-tertiary);
+    border-radius: 16px;
+    padding: 54px 31px;
+}
+
+.dga-profile-finder-title {
+    font-weight: 500;
+    font-size: 38px;
+    color: var(--dga-color-font-tertiary);
+    margin-bottom: 12px;
+}
+
+.dga-profile-finder-input {
+    width: 298px;
+    height: 40px;
+    padding-left: 17px;
+    border: 1px solid var(--dga-color-border-primary);
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.dga-profile-finder-input::placeholder {
+    color: var(--dga-color-placeholder);
+    font-size: 16px;
+}

@@ -1,5 +1,7 @@
-import Button from '../../../components/Button';
 import './styles.css';
+import { NavLink } from 'react-router-dom';
+import Button from '../../../components/Button';
+
 
 export default function HomeBody() {
     return(
@@ -11,7 +13,11 @@ export default function HomeBody() {
                 <div className='dga-paddingl40 dga-mb30 dga-home-subtitle'>
                     DevSuperior - Escola de programação
                 </div>
-                <Button text="Começar" />
+                <div className='dga-dflex dga-paddingl40'>
+                    <NavLink to={"/profile-finder"}>
+                        <Button text="Começar" />
+                    </NavLink>
+                </div>               
             </section>
         </main>
     );
