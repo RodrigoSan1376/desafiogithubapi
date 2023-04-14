@@ -1,0 +1,6 @@
+.dga-error-msg {
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--dga-color-font-tertiary);
+    margin-top: 55px;
+}

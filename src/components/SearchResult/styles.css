@@ -1,0 +1,61 @@
+.dga-user-profile-container {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    min-height: 335px;
+    width: 100%;
+    background-color: var(--dga-color-bg-quaternary);
+    border-radius: 8px;
+    margin-top: 55px;
+    margin-bottom: 125px;
+}
+
+.dga-user-profile-container img {
+    width: 247px;
+    height: 247px;
+}
+
+.dga-user-profile-content {
+    background-color: var(--dga-color-bg-primary);
+    height: 247px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 8px 15px 15px 15px;
+    border: 1px solid var(--dga-color-border-primary);
+}
+
+.dga-user-profile-content-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--dga-color-font-quaternary);
+    margin-bottom: 19px;
+}
+
+.dga-profile-item {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--dga-color-font-senary);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dga-result-box {
+    height: 40px;
+    border: 1px solid var(--dga-color-border-primary);
+    border-radius: 4px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    color: var(--dga-color-font-senary);    
+}
+
+.dga-user-profile-url {
+    color: var(--dga-color-font-septenary);
+}
+
+
+
+
+
+
